@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/hello")
 public class HelloWorld {
 
-    private final String branch = "test_demo";
+    private final String branch = "master";
     private final String merge_branch = "demo_to_marster";
 
     @RequestMapping("/world")
